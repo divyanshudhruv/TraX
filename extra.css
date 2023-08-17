@@ -1,0 +1,79 @@
+.user {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  background-color: #fff;
+  right: 30px;
+  top: 100px;
+  z-index: 999;
+  flex-wrap: wrap;
+  flex-direction: column;
+  transition: .3s;
+  opacity: 0;
+}
+
+.user.myClass{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: #fff;
+    right: 30px;
+    top: 100px;
+    z-index: 999;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: .3s;
+    opacity: 1;
+  }
+
+.user .check {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  top: 0px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(26, 230, 124);
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.user .textUser {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  bottom: 35px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: darkslategray;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.user .textUser .btn {
+  display: flex;
+  position: absolute;
+  bottom: -15px;
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ff544d;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 12.5px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.user .textUser .btn:hover {
+   background-color: #fe322b;
+  }
+  

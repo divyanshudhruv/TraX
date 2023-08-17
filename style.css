@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  display: flex;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  background-color: #fff !important;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  cursor: url("Cursor.png"), auto;
+  scroll-behavior: smooth;
+  font-family: Poppins;
+}
+
+.navBar {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 90px;
+  background-color: #fff;
+  /* border-bottom: 1px solid rgb(110, 110, 110); */
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar .logoC {
+  display: flex;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: none;
+  background-image: url(Untitled.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+
+.navBar .buttonC {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navBar .buttonC .btn {
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgb(251, 253, 255);
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 22.5px;
+  color: darkslategrey;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navBar .buttonC .btn:hover {
+  background-color: #efefef;
+}
+
+.navBar .linkC {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 60px;
+  margin: auto;
+  height: 100%;
+  width: 800px;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a{
+    color: #2f4f4f;
+}
+
+a:hover{
+    color: #7173ff;
+}
+html{
+    scroll-behavior: smooth;  font-family: Poppins;
+
+}
+.navBar .linkC .link {
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: rgb(251, 253, 255);
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #2f4f4f;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navBar .linkC .link:hover {
+  color: #7173ff;
+}
+
+/* +=HOME PAGE=+ */
+
+.home {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 90px);
+  margin-top: 0px;
+  left: 0;
+  background-color: none;
+}
+
+.home .homeC {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  left: 0;
+  background-color: none;
+  background-image: url(Home\ Image.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.home .homeC .text {
+  display: flex;
+  position: absolute;
+  width: 60%;
+  height: 200px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: none;
+  font-family: Poppins, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.statsC {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 125px;
+  background-color: none;
+  top: calc(100vh - 200px);
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.statsC .stats {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.statsC .stats .left {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+  font-size: 42px;
+  color: darkslategrey;
+  font-weight: 500;
+  font-family: Roboto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.statsC .stats .right {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: none;
+  right: 40px;
+  font-size: 42px;
+  color: darkslategrey;
+  font-weight: 300;
+  font-family: Poppins;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 15px;
+  color: #696969;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  border-top: 1px solid rgb(156, 156, 156);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(156, 156, 156);
+  letter-spacing: 2px;
+}
+
+.productC {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+}
+
+.productC .title {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: darkslategrey;
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.productC .products {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+  background-color: none;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.productC .products .top {
+  display: flex;
+  position: relative;
+  width: 275px;
+  height: 375px;
+  background-color: #fff;
+  /* border: 1px solid #8b8b8b; */
+  box-shadow: 0px 0px 50px #2f4f4f14;
+}
+
+.productC .products .top .image {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 0;
+  background-color: none;
+}
+
+.productC .products .top .bottom {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background-color: none;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.productC .products .top .bottom .text {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: none;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  caret-color: darkslategray;
+  font-size: 20px;
+}
+
+.productC .products .top .bottom .price {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: none;
+  top: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-family: Poppins, sans-serif;
+  color: rgb(255, 71, 83);
+  font-size: 16px;
+}
+
+.productC .products .top .bottom .btn {
+  display: flex;
+  position: relative;
+  
+  bottom: -35px;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgba(255, 71, 95, 0.874);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.productC .products .top .bottom .btn:hover {
+   background-color: rgba(255, 43, 71, 0.874);
+  }
+
+.aboutC {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 70vh;
+  background-color: #1abc9c;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutC .title {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 00px;
+  background-color: none;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.aboutC .texts {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  height: 250px;
+  bottom: 90px;
+  background-color: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.aboutC .texts .left {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  background-color: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.aboutC .texts .right {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  background-color: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+  letter-spacing: 1px;
+}
+
+.aboutC .buttons {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  width: 25%;
+  height: 100px;
+  background-color: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutC .buttons .btns {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.aboutC .buttons .btns:hover {
+  background-color: rgba(77, 215, 187);
+}
+
+.contact {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 130vh;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .textC {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: -30px;
+  background-color: none;
+  font-size: 40px;
+  font-weight: 500;
+  color: darkslategray;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.video {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.video .title {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 00px;
+  background-color: none;
+  font-size: 40px;
+  font-weight: 500;
+  color: darkslategray;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.video .content {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  background-color: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  letter-spacing: 1px;
+}
+video {
+  display: flex;
+  position: absolute;
+  width: 60%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #ddd;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+font-family: Poppins;  
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;font-family: Poppins;  
+
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;font-family: Poppins;  
+
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form {
+    border-radius: 5px;
+    position: absolute;
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    top: 100px;font-family: Poppins;  
+
+  }
